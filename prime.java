@@ -8,7 +8,7 @@ public class prime {
         System.out.println("prime numbers:");
         System.out.print("Start: ");
         int start = scanner.nextInt();
-        System.out.print("End: ");
+        System.out.print("enter the End: ");
         int end = scanner.nextInt();
 
         System.out.println("between " + start + " and " + end + " are:");
