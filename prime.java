@@ -5,7 +5,7 @@ public class prime {
         Scanner scanner = new Scanner(System.in);
 
         // Ask the user for the range
-        System.out.println("Enter the range to find prime numbers:");
+        System.out.println("sprime numbers:");
         System.out.print("Start: ");
         int start = scanner.nextInt();
         System.out.print("End: ");
