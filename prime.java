@@ -5,13 +5,13 @@ public class prime {
         Scanner scanner = new Scanner(System.in);
 
         // Ask the user for the range
-        System.out.println("sprime numbers:");
+        System.out.println("prime numbers:");
         System.out.print("Start: ");
         int start = scanner.nextInt();
         System.out.print("End: ");
         int end = scanner.nextInt();
 
-        System.out.println("Prime numbers between " + start + " and " + end + " are:");
+        System.out.println("between " + start + " and " + end + " are:");
         for (int i = start; i <= end; i++) {
             if (isPrime(i)) {
                 System.out.print(i + " ");
